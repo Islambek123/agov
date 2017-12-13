@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:asdasd"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="675.4" Width="701.067">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,236,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="368"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="112,206,0,0" VerticalAlignment="Top" Width="368"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,166,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="368"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="112,136,0,0" VerticalAlignment="Top" Width="368"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="609,616,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
