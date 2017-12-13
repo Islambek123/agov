@@ -3,7 +3,7 @@ namespace asdasd.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class First : DbMigration
+    public partial class logi : DbMigration
     {
         public override void Up()
         {

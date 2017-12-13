@@ -7,15 +7,12 @@ using System.Threading.Tasks;
 
 namespace asdasd.Context
 {
-    public class Login
+    public class Role
     {
         [Key]
         public int ID { get; set; }
-        [Required,MaxLength(length:228)]
-        public string Email { get; set; }
-        [Required,MaxLength(length:228)]
-        public string Password { get; set; }
-
-        public virtual ICollection<Role> role { get; set; }
+        [Required,MaxLength(length:20)]
+        public string RoleName { get; set; }
+        public virtual ICollection<Login> login { get; set; }
     }
 }

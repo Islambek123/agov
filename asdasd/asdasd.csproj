@@ -72,15 +72,16 @@
     </Compile>
     <Compile Include="Context\EFContext.cs" />
     <Compile Include="Context\Login.cs" />
+    <Compile Include="Context\Role.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201712121826147_First.cs" />
-    <Compile Include="Migrations\201712121826147_First.Designer.cs">
-      <DependentUpon>201712121826147_First.cs</DependentUpon>
+    <Compile Include="Migrations\201712131419407_logi.cs" />
+    <Compile Include="Migrations\201712131419407_logi.Designer.cs">
+      <DependentUpon>201712131419407_logi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,8 +97,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\201712121826147_First.resx">
-      <DependentUpon>201712121826147_First.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201712131419407_logi.resx">
+      <DependentUpon>201712131419407_logi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

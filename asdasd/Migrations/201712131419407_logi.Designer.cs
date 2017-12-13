@@ -7,13 +7,13 @@ namespace asdasd.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class First : IMigrationMetadata
+    public sealed partial class logi : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(First));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(logi));
         
         string IMigrationMetadata.Id
         {
-            get { return "201712121826147_First"; }
+            get { return "201712131419407_logi"; }
         }
         
         string IMigrationMetadata.Source
